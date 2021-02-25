@@ -24,9 +24,9 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 3. [Docker](www.docker.com)
 
 ## Teamzusammensetzung
-⋅⋅* Muhammd Turko (Teamleiter).
-⋅⋅* Pascal Sielicki
-⋅⋅* Raphael Scharrer
+- Muhammd Turko (Teamleiter).
+- Pascal Sielicki
+- Raphael Scharrer
 
 
 
