@@ -1,4 +1,6 @@
 # CPR-Fiebermesser
+Teamleiter: Muhammad Turko
+Teammitglieder: Pascal Sielicki, Raphael Scharrer
 
 ## Überblick
 Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man imstande sein die Temperatur einer Person beim Betreten vom Schulgebäude einzufangen.
@@ -11,8 +13,19 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 ## Themenbeschreibung
 
-Als Hardware benutzen wir ein **Raspberry PI** und eine **[Raspberry PI Infrarot Webcam](https://at.rs-online.com/web/p/raspberry-pi-kameras/9132664/)**
+Als Hardware benutzen wir ein **Raspberry PI** und eine **[Raspberry PI Infrarotkamera](https://at.rs-online.com/web/p/raspberry-pi-kameras/9132664/)**
 Hierbei werden für die Umsetzung die Softwares **OpenCV, Highchart und Docker** verwendet.
 Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man imstande sein die Temperatur einer Person beim Betreten vom Schulgebäude einzufangen.
+
+
+## Verwendete Technologien
+
+1. OpenCV
+2. [Highchart](https://www.highcharts.com/) oder [chartJS](https://www.chartjs.org/)
+3. [Docker](www.docker.com)
+
+
+
+
 
 
