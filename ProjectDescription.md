@@ -33,6 +33,9 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 # Bisher erreichte Ziele
 
+
+- Image Installation
+
 - Kamera erfolgreich mit dem Raspberry PI verbunden: 
 
 ![1](https://user-images.githubusercontent.com/74356182/119810306-340db080-bee6-11eb-950d-65854cfb5d8f.jpg)
@@ -41,6 +44,13 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 - Bilder aufnehemen mithilfe von: raspistill -o image.jpg
 - Videos aufnehemen mithilfe von raspivid -o video.h264 -t 10000 ===> -t steht hier in dem Fall für eine 10 sekündige Aufnahme
+
+
+
+- Gesichtserkennung: 
+
+
+
 
 
 
