@@ -31,7 +31,7 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Bisher erreichte Ziele
+## Bisher erreichte Ziele
 
 11.03
 - Image Installation
