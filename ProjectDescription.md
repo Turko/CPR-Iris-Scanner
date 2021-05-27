@@ -47,7 +47,9 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 
 
-- Gesichtserkennung: 
+- Gesichtserkennung: (benutzte Software --> Raspbian OS, OpenCV, Python3)
+- Nach dem Einrichten des Kameramoduls wurden anschließend OpenCV installiert
+
 
 
 
