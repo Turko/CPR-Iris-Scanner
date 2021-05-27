@@ -39,5 +39,13 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 ![2](https://user-images.githubusercontent.com/74356182/119810416-4f78bb80-bee6-11eb-9ea7-5c077ec50269.jpg)
 
 
+- Bilder aufnehemen mithilfe von: raspistill -o image.jpg
+- Videos aufnehemn mithilfe von raspivid -o video.h264 -t 10000
+
+
+
+
+
+
 
 
