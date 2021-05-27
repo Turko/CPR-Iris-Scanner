@@ -41,6 +41,7 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 - Bilder aufnehemen mithilfe von: raspistill -o image.jpg
 - Videos aufnehemn mithilfe von raspivid -o video.h264 -t 10000
+  -t steht hier in dem Fall für eine 10 sekündige Aufnahme
 
 
 
