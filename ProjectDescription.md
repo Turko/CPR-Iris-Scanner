@@ -99,6 +99,11 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 
 ![11](https://user-images.githubusercontent.com/74356182/121463821-0aa75700-c9b3-11eb-9c33-3fcde3f4dc2a.png)
 
+- Die Funktionalität der Libary mithilfe von folgenden Commands: 
+  Python
+  import cv2
+  
+![12](https://user-images.githubusercontent.com/74356182/121464043-6d005780-c9b3-11eb-87b7-93844f4be97b.png)
 
 
 
