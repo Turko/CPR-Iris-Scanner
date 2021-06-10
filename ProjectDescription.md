@@ -47,22 +47,49 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 - Videos aufnehemen mithilfe von raspivid -o video.h264 -t 10000 ===> -t steht hier in dem Fall für eine 10 sekündige Aufnahme
 
 
-# 15.04
+## 15.04
 - Nach dem Einrichten des Kameramoduls wurde anschließend, mithilfe von CMake, OpenCV installiert
 - Tutorial Link --> https://robu.in/installing-opencv-using-cmake-in-raspberry-pi/
 
 - Wichtige Arbeitsvorgänge: 
-- CMake hilft uns die OpenCV Libary zu kompiliern, somit müssen wir das als erstes snapd installieren um die CMake Packages installieren zu können --> sudo apt install snapd
+- CMake hilft uns die OpenCV Libary zu kompilieren, somit müssen wir das als erstes snapd installieren um die CMake Packages installieren zu können --> sudo apt install snapd
 
 ![1](https://user-images.githubusercontent.com/74356182/121461503-4b9d6c80-c9af-11eb-87d6-20fbdfeb0324.png)
  
- Jetzt können wir die CMake  Packages isntallieren mit folgendem Command --> sudo snap install cmake --classic
+ - Jetzt können wir die CMake  Packages isntallieren mit folgendem Command --> sudo snap install cmake --classic
  
  ![2](https://user-images.githubusercontent.com/74356182/121461755-bcdd1f80-c9af-11eb-8300-f63afc3b7e50.png)
  
  - Python 3 Installation --> sudo apt-get install python3-dev
  
  ![3](https://user-images.githubusercontent.com/74356182/121461865-f4e46280-c9af-11eb-83cf-aed508343065.png)
+ 
+ - Downloaden der Source Code Packages von OpenCV und kompilieren es auf dem Raspberry Pi mithilfe von CMake --> wget -O opencv.zip       https://github.com/opencv/opencv/archive/4.0.0.zip
+
+![4](https://user-images.githubusercontent.com/74356182/121462467-eba7c580-c9b0-11eb-8610-931a4fad7c67.png)
+
+- und jetzt die Packages entpacken/installieren --> unzip opencv.zip
+
+![5](https://user-images.githubusercontent.com/74356182/121462653-375a6f00-c9b1-11eb-84f9-794234c30f7e.png)
+
+- NumPy Instalation, damit OpenCV auch ordentlich funktionieren kann --> pip install numpy
+
+![6](https://user-images.githubusercontent.com/74356182/121462863-8b655380-c9b1-11eb-8866-82fa376c979c.png)
+
+- Kompilierbefehele --> jetzt müssen wir CMake zum laufen bringen. In den Pfad “~/opencv-4.0.0/build” wechseln und folgende Zeilen hineien kopieren:
+
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-4.0.0/modules \
+    -D ENABLE_NEON=ON \
+    -D ENABLE_VFPV3=ON \
+    -D BUILD_TESTS=OFF \
+    -D WITH_TBB=OFF \
+    -D INSTALL_PYTHON_EXAMPLES=OFF \
+    -D BUILD_EXAMPLES=OFF ..
+
+![8](https://user-images.githubusercontent.com/74356182/121463395-40980b80-c9b2-11eb-9c21-4b90f7aa6f0d.png)
+
 
 
 
