@@ -48,8 +48,8 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 
 15.04
-- Gesichtserkennung: (benutzte Software --> Raspbian OS, OpenCV, Python3)
-- Nach dem Einrichten des Kameramoduls wurde anschließend OpenCV installiert
+- Nach dem Einrichten des Kameramoduls wurde anschließend, mithilfe von CMake, OpenCV installiert
+- Tutorial Link --> https://robu.in/installing-opencv-using-cmake-in-raspberry-pi/
 
 27.05
 - Arbeiten am "Protokoll"
