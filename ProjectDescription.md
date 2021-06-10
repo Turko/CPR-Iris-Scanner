@@ -111,17 +111,17 @@ Das Implementieren der Gesichtserkennung erfolgte über einen Code in Python3.
 
 ## Code:
 
-import io
-import picamera
-import cv2
-import numpy
+    import io
+    import picamera
+    import cv2
+    import numpy
 
-#Load a cascade file for detecting faces
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')
+    #Load a cascade file for detecting faces
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')
 
-while True:
-        #Create a memory stream so photos doesn't need to be saved in a file
-        stream = io.BytesIO()
+    while True:
+            #Create a memory stream so photos doesn't need to be saved in a file
+            stream = io.BytesIO()
         
         #Get the picture (low resolution, so it should be quite fast)
         #Here you can also specify other parameters (e.g.:rotate the image)
@@ -155,12 +155,8 @@ while True:
         cv2.waitKey(100)
         
 
-
-
-
-
-#Save the result image
-#cv2.imwrite('result.jpg',image)
+    #Save the result image
+    #cv2.imwrite('result.jpg',image)
 
 
 ## 27.05
