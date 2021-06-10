@@ -56,6 +56,15 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 ![1](https://user-images.githubusercontent.com/74356182/121461503-4b9d6c80-c9af-11eb-87d6-20fbdfeb0324.png)
  
+ Jetzt können wir die CMake  Packages isntallieren mit folgendem Command --> sudo snap install cmake --classic
+ 
+ ![2](https://user-images.githubusercontent.com/74356182/121461755-bcdd1f80-c9af-11eb-8300-f63afc3b7e50.png)
+ 
+ - Python 3 Installation --> sudo apt-get install python3-dev
+ 
+ ![3](https://user-images.githubusercontent.com/74356182/121461865-f4e46280-c9af-11eb-83cf-aed508343065.png)
+
+
 
 27.05
 - Arbeiten am "Protokoll"
