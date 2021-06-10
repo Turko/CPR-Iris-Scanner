@@ -50,6 +50,11 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 15.04
 - Nach dem Einrichten des Kameramoduls wurde anschließend, mithilfe von CMake, OpenCV installiert
 - Tutorial Link --> https://robu.in/installing-opencv-using-cmake-in-raspberry-pi/
+- 
+- Wichtige Arbeitsvorgänge: 
+- CMake hilft uns die OpenCV Libary zu kompiliern, somit müssen wir das als erstes snapd installieren um die CMake Packages installieren zu können --> sudo apt install snapd
+![1](https://user-images.githubusercontent.com/74356182/121461503-4b9d6c80-c9af-11eb-87d6-20fbdfeb0324.png)
+ 
 
 27.05
 - Arbeiten am "Protokoll"
