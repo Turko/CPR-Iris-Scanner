@@ -115,6 +115,8 @@ import picamera
 import cv2
 import numpy
 
+
+
 #Load a cascade file for detecting faces
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')
 
