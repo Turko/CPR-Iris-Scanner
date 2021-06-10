@@ -163,6 +163,9 @@ Das Implementieren der Gesichtserkennung erfolgte über einen Code in Python3.
 - Arbeiten am "Protokoll"
 - Informieren über die noch zu erreichenden Ziele
 
+## 10.6 
+ -
+
 
 
 
