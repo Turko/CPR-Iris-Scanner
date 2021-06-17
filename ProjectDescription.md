@@ -25,7 +25,7 @@ Mithilfe von **Raspberry PI** und einer **Raspberry PI Infrarotkamera** soll man
 
 ## Teamzusammensetzung
 - Muhammad Turko
-- Pascal Sielicki
+- Pascal Goldmann
 - Raphael Scharrer
 
 
